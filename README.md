@@ -152,6 +152,14 @@ EMAIL_USE_TLS=True
 
 ---
 
+## Running Tests
+
+```bash
+docker-compose exec api python manage.py test --noinput --verbosity=2
+```
+
+---
+
 ## Project Structure
 
 ```
